@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--
+  Name: [Pranav Bellie]
+  Date: 09.18.2026
+  CSC 372-01
+
+  This is the event.html detail page for the Ashbrook University Campus
+  Event Guide. It covers the International Food Festival in full detail,
+  including a schedule, accessibility information, and registration
+  details in the sidebar, plus a short list of related events.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>International Food Festival - Ashbrook Campus Events</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header id="site-header">
+    <a id="logo" href="index.html">Ashbrook Campus Events</a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#upcoming-events">Upcoming Events</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="event.html">Featured Event</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="event-intro">
+      <figure>
+        <img src="images/event-food.png" alt="Illustration of a circular platter with small dishes arranged around the edge">
+        <figcaption>Dishes from returning vendors at last year's festival</figcaption>
+      </figure>
+      <div>
+        <span class="event-category">Culture</span>
+        <h1>International Food Festival</h1>
+        <p class="event-meta"><time datetime="2026-10-19T11:00">Sunday, October 19, 11:00 AM - 3:00 PM</time> &middot; Campus Green</p>
+        <p>The International Food Festival brings together more than a dozen student cultural organizations for an afternoon of food, music, and performance on the Campus Green. It is one of the most attended events of the fall semester and welcomes students, staff, and the surrounding community.</p>
+      </div>
+    </section>
+
+    <div id="event-layout">
+
+      <article id="event-main-content">
+        <h2>About This Event</h2>
+        <p>Each participating organization runs its own food station, offering dishes rooted in a specific country or region. Proceeds from ticket sales go directly back to the student organizations to fund their programming for the rest of the year. A stage at the center of the Green hosts short performances throughout the afternoon, including dance groups and a cappella sets.</p>
+
+        <h2>What to Expect</h2>
+        <ul>
+          <li>Twelve to fifteen food stations, each selling small tasting portions for tickets</li>
+          <li>A performance stage with sets roughly every 30 minutes</li>
+          <li>Seating areas on the Green, plus overflow seating near the library steps</li>
+          <li>A lost-and-found and first aid tent near the main entrance</li>
+        </ul>
+
+        <h2>Schedule</h2>
+        <ol>
+          <li><time datetime="2026-10-19T11:00">11:00 AM</time> - Gates open, food stations begin serving</li>
+          <li><time datetime="2026-10-19T11:30">11:30 AM</time> - Opening performance from the Ashbrook Dance Collective</li>
+          <li><time datetime="2026-10-19T12:30">12:30 PM</time> - Cooking demo hosted by the Culinary Club</li>
+          <li><time datetime="2026-10-19T14:00">2:00 PM</time> - Closing performance and organization shout-outs</li>
+          <li><time datetime="2026-10-19T15:00">3:00 PM</time> - Event ends, stations close</li>
+        </ol>
+
+        <h2>Accessibility &amp; Participation</h2>
+        <p>The Campus Green is fully paved and wheelchair accessible from both the library and Student Union entrances. Reserved seating near the stage is available on request at the information tent. Several stations offer vegetarian and vegan options, and ingredient lists are posted at each table for common allergens.</p>
+      </article>
+
+      <aside id="event-sidebar">
+        <h2>Event Details</h2>
+        <dl>
+          <dt>Date</dt>
+          <dd><time datetime="2026-10-19">Sunday, October 19, 2026</time></dd>
+
+          <dt>Time</dt>
+          <dd>11:00 AM - 3:00 PM</dd>
+
+          <dt>Location</dt>
+          <dd>Campus Green</dd>
+
+          <dt>Organizer</dt>
+          <dd>Office of Student Engagement &amp; Cultural Organizations Council</dd>
+
+          <dt>Admission</dt>
+          <dd>Free entry; food tickets $1 each, available at the gate</dd>
+        </dl>
+        <a id="btn" href="#">Register to Attend</a>
+      </aside>
+
+    </div>
+
+    <section id="related-events-section">
+      <h2>Related Events</h2>
+      <div id="related-events">
+
+        <article class="event-card related-card">
+          <img src="images/event-music.png" alt="Illustration of music notes over a purple stage backdrop">
+          <div class="event-card-body">
+            <span class="event-category">Music</span>
+            <h3>Fall Music Festival</h3>
+            <p class="event-meta"><time datetime="2026-10-03T18:00">Oct 3, 6:00 PM</time></p>
+            <a class="card-link" href="index.html#upcoming-events">View Details &rarr;</a>
+          </div>
+        </article>
+
+        <article class="event-card related-card">
+          <img src="images/event-openmic.png" alt="Illustration of a microphone silhouette on a green background">
+          <div class="event-card-body">
+            <span class="event-category">Arts</span>
+            <h3>Open Mic Night</h3>
+            <p class="event-meta"><time datetime="2026-10-15T19:00">Oct 15, 7:00 PM</time></p>
+            <a class="card-link" href="index.html#upcoming-events">View Details &rarr;</a>
+          </div>
+        </article>
+
+        <article class="event-card related-card">
+          <img src="images/event-career.png" alt="Illustration of a briefcase and a stack of documents">
+          <div class="event-card-body">
+            <span class="event-category">Career</span>
+            <h3>Tech &amp; Engineering Career Fair</h3>
+            <p class="event-meta"><time datetime="2026-10-08T10:00">Oct 8, 10:00 AM</time></p>
+            <a class="card-link" href="index.html#upcoming-events">View Details &rarr;</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="site-footer">
+    <p>&copy; 2026 Ashbrook University Office of Student Engagement. All rights reserved.</p>
+    <p>Questions? Email <a href="mailto:events@ashbrook.edu">events@ashbrook.edu</a></p>
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="event.html">Featured Event</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
