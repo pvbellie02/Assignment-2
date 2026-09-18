@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+  Name: [Pranav Bellie]
+  Date: 09.18.2026
+  CSC 372-01
+
+  This is the index.html home page for the Ashbrook University Campus
+  Event Guide, built for the Office of Student Engagement. It introduces
+  the site, lists upcoming campus events in a grid, and explains what the
+  guide offers students.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Event Guide - Ashbrook University</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header id="site-header">
+    <a id="logo" href="index.html">Ashbrook Campus Events</a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#upcoming-events">Upcoming Events</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="event.html">Featured Event</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="hero">
+      <img src="images/hero.png" alt="The Ashbrook University quad at dusk with string lights and trees">
+      <div id="hero-content">
+        <h1>Find Something to Do on Campus</h1>
+        <p>From music and food to career fairs and pickup games, the Campus Event Guide gathers everything happening at Ashbrook University in one place.</p>
+        <a id="btn" href="#upcoming-events">See Upcoming Events</a>
+      </div>
+    </section>
+
+    <section id="upcoming-events">
+      <h2>Upcoming Events</h2>
+
+      <div id="events-grid">
+
+        <article class="event-card" id="featured-event">
+          <img src="images/event-food.png" alt="Illustration of a circular platter with small dishes arranged around the edge">
+          <div class="event-card-body">
+            <span class="event-category">Culture</span>
+            <h3>International Food Festival</h3>
+            <p class="event-meta"><time datetime="2026-10-19T11:00">Oct 19, 11:00 AM - 3:00 PM</time> &middot; Campus Green</p>
+            <p>Sample dishes from more than a dozen student cultural organizations, watch live cooking demos, and enjoy performances on the Campus Green stage.</p>
+            <a class="card-link" href="event.html">View Details &rarr;</a>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <img src="images/event-music.png" alt="Illustration of music notes over a purple stage backdrop">
+          <div class="event-card-body">
+            <span class="event-category">Music</span>
+            <h3>Fall Music Festival</h3>
+            <p class="event-meta"><time datetime="2026-10-03T18:00">Oct 3, 6:00 - 9:00 PM</time> &middot; Quad Lawn</p>
+            <p>Three student bands and a local headliner close out the evening with an outdoor concert on the Quad Lawn.</p>
+            <a class="card-link" href="#">View Details &rarr;</a>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <img src="images/event-career.png" alt="Illustration of a briefcase and a stack of documents">
+          <div class="event-card-body">
+            <span class="event-category">Career</span>
+            <h3>Tech &amp; Engineering Career Fair</h3>
+            <p class="event-meta"><time datetime="2026-10-08T10:00">Oct 8, 10:00 AM - 2:00 PM</time> &middot; Student Union Ballroom</p>
+            <p>Meet recruiters from over 40 companies hiring for internships and full-time engineering and tech roles.</p>
+            <a class="card-link" href="#">View Details &rarr;</a>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <img src="images/event-sports.png" alt="Illustration of a basketball court circle and lines">
+          <div class="event-card-body">
+            <span class="event-category">Sports</span>
+            <h3>Intramural 3v3 Basketball Tournament</h3>
+            <p class="event-meta"><time datetime="2026-10-12T13:00">Oct 12, 1:00 - 5:00 PM</time> &middot; Recreation Center Courts</p>
+            <p>Register a team of three or sign up solo to be placed on a roster for a single-elimination tournament.</p>
+            <a class="card-link" href="#">View Details &rarr;</a>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <img src="images/event-openmic.png" alt="Illustration of a microphone silhouette on a green background">
+          <div class="event-card-body">
+            <span class="event-category">Arts</span>
+            <h3>Open Mic Night</h3>
+            <p class="event-meta"><time datetime="2026-10-15T19:00">Oct 15, 7:00 - 9:00 PM</time> &middot; The Underground Caf&eacute;</p>
+            <p>Sign up on arrival to perform poetry, music, or comedy in front of a laid-back campus crowd.</p>
+            <a class="card-link" href="#">View Details &rarr;</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About the Guide</h2>
+      <p>The Campus Event Guide is maintained by the Office of Student Engagement to make it easier for students to find things to do outside of class. Every event listed here is either hosted or co-sponsored by a recognized campus organization.</p>
+      <p>Whether you are looking to build your resume, unwind after a long week, or just try something new, there is usually something happening within walking distance of your dorm.</p>
+      <ul id="about-benefits">
+        <li>One central calendar instead of dozens of separate club pages</li>
+        <li>Event details written by students, for students</li>
+        <li>Direct links to registration and accessibility information</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer id="site-footer">
+    <p>&copy; 2026 Ashbrook University Office of Student Engagement. All rights reserved.</p>
+    <p>Questions? Email <a href="mailto:events@ashbrook.edu">events@ashbrook.edu</a></p>
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="event.html">Featured Event</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
