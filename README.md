@@ -83,3 +83,15 @@ DevTools' device toolbar to check common phone and tablet widths (about
   `event.html` so the image and its caption are grouped as one unit.
 - **`<time>`** marks up every date and time shown to the user, with a
   machine-readable `datetime` attribute.
+
+## JavaScript Features
+
+`js/saved-events.js` is loaded with `defer` and adds a Save Event /
+Remove Event feature to `index.html` entirely through JavaScript - the
+Save Event buttons and the "Saved Events" summary section are both built
+with `createElement` on page load rather than existing in the static
+HTML. Clicking a card's button toggles a `.event-saved` highlight class
+on the card (via `classList`), swaps the button's text, and adds or
+removes that event from a live summary list at the bottom of the page,
+which shows a placeholder message when nothing is saved.
+

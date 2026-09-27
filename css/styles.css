@@ -169,6 +169,43 @@ footer nav a {
   max-width: 260px;
 }
 
+.save-btn {
+  margin-top: 10px;
+  align-self: flex-start;
+  background-color: #ffffff;
+  color: #5a2d82;
+  border: 2px solid #5a2d82;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: #f0e6f8;
+}
+
+.event-saved {
+  border: 3px solid #e8a33d;
+  background-color: #fff8ea;
+}
+
+.saved-event-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+
+.saved-event-meta {
+  font-size: 10pt;
+  color: #555555;
+}
+
 /* ids (each appears exactly once per page) */
 #hero {
   position: relative;
@@ -224,6 +261,21 @@ footer nav a {
 
 #about-benefits {
   padding-left: 20px;
+}
+
+#saved-events {
+  margin-bottom: 40px;
+}
+
+#saved-events-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#no-saved-events-message {
+  color: #555555;
+  font-style: italic;
 }
 
 #event-intro {
